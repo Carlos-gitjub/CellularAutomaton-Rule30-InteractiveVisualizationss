@@ -1,0 +1,395 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16263,        387]
+NotebookOptionsPosition[     14947,        353]
+NotebookOutlinePosition[     15348,        369]
+CellTagsIndexPosition[     15305,        366]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Interactive visualisations for Cellular Automata (Rule 30). ", "Title",
+ CellChangeTimes->{{3.8637717093158207`*^9, 3.8637718067711215`*^9}, {
+  3.863771853451259*^9, 
+  3.8637718974913964`*^9}},ExpressionUUID->"f86f3a7e-9a0e-4f85-98da-\
+d14f32c75bc2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RulePlot", "[", 
+  RowBox[{"CellularAutomaton", "[", "30", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.863763843865625*^9, 3.8637638438670807`*^9}},
+ CellLabel->
+  "In[198]:=",ExpressionUUID->"cc16da61-f2d7-43a9-9f46-039cb93d6b93"],
+
+Cell[BoxData[
+ GraphicsBox[{{InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{0.6153846153846154, Rational[1, 2]}, {0.6153846153846154, 
+      0.5}], {Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{1.8461538461538463`, Rational[1, 2]}, {1.8461538461538463`, 
+      0.5}], {Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{3.076923076923077, Rational[1, 2]}, {3.076923076923077, 0.5}], {
+     Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{4.307692307692308, Rational[1, 2]}, {4.307692307692308, 0.5}], {
+     Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{5.538461538461538, Rational[1, 2]}, {5.538461538461538, 0.5}], {
+     Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{6.76923076923077, Rational[1, 2]}, {6.76923076923077, 0.5}], {
+     Center, Center}, {1.2307692307692308, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[0], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[0], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{8., Rational[1, 2]}, {8., 0.5}], {
+     Center, Center}, {1.2307692307692317, 1}], InsetBox[
+     GraphicsBox[{
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-3, 2], 0}, {-1.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[-1, 2], 0}, {-0.5, 0}]]}, 
+        {GrayLevel[1], RectangleBox[NCache[{Rational[1, 2], 0}, {0.5, 0}]]}}, 
+       {EdgeForm[GrayLevel[
+         NCache[-1 + GoldenRatio, 0.6180339887498949]]], 
+        {GrayLevel[1], 
+         RectangleBox[
+          NCache[{Rational[-1, 2], Rational[-5, 4]}, {-0.5, -1.25}]]}}},
+      PlotRange->NCache[{{-2, 2}, {
+          Rational[-7, 4], 
+          Rational[3, 2]}}, {{-2, 2}, {-1.75, 1.5}}]], 
+     NCache[{9.230769230769232, Rational[1, 2]}, {9.230769230769232, 0.5}], {
+     Center, Center}, {1.23076923076923, 1}]}, 
+   {GrayLevel[
+    0.8], {LineBox[{{0, 0}, {0, 1}}], 
+     LineBox[{{1.2307692307692308`, 0}, {1.2307692307692308`, 1}}], 
+     LineBox[{{2.4615384615384617`, 0}, {2.4615384615384617`, 1}}], 
+     LineBox[{{3.6923076923076925`, 0}, {3.6923076923076925`, 1}}], 
+     LineBox[{{4.923076923076923, 0}, {4.923076923076923, 1}}], 
+     LineBox[{{6.153846153846154, 0}, {6.153846153846154, 1}}], 
+     LineBox[{{7.384615384615385, 0}, {7.384615384615385, 1}}], 
+     LineBox[{{8.615384615384617, 0}, {8.615384615384617, 1}}], 
+     LineBox[{{9.846153846153847, 0}, {9.846153846153847, 1}}]}, {
+     LineBox[{{0, 0}, {9.846153846153847, 0}}], 
+     LineBox[{{0, 1}, {9.846153846153847, 1}}]}}}]], "Output",
+ CellChangeTimes->{3.863763845510604*^9, 3.8637694668377066`*^9},
+ CellLabel->
+  "Out[198]=",ExpressionUUID->"de2cd51a-93f0-4ae6-8f1d-6e4015d5c493"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Visualisation 1", "Subtitle",
+ CellChangeTimes->{{3.86377165906054*^9, 3.8637716667777653`*^9}, {
+  3.863771809611127*^9, 3.863771812315136*^9}, {3.863771909706433*^9, 
+  3.8637719101821957`*^9}},ExpressionUUID->"554e497f-af5e-4619-8c10-\
+c5bc96f8a288"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f1", "[", "a_", "]"}], ":=", 
+   RowBox[{"Join", "[", 
+    RowBox[{
+     RowBox[{"l", "=", 
+      RowBox[{
+       RowBox[{"CellularAutomaton", "[", 
+        RowBox[{"30", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "100"}], "]"}], 
+       "[", 
+       RowBox[{"[", 
+        RowBox[{"1", ";;", 
+         RowBox[{"a", "+", "1"}]}], "]"}], "]"}]}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{"0", ",", 
+         RowBox[{"Length", "[", 
+          RowBox[{"l", "[", 
+           RowBox[{"[", "1", "]"}], "]"}], "]"}]}], "]"}], ",", 
+       RowBox[{"100", "-", "a", "-", "1"}]}], "]"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ArrayPlot", "[", 
+    RowBox[{
+     RowBox[{"f1", "[", "x", "]"}], ",", 
+     RowBox[{"Mesh", "\[Rule]", "True"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "0", ",", "100", ",", "1"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.863771068012864*^9, 3.8637712015452585`*^9}, {
+  3.8637712722184863`*^9, 3.8637712754927216`*^9}, {3.863771572533285*^9, 
+  3.8637715790894136`*^9}},
+ CellLabel->
+  "In[285]:=",ExpressionUUID->"4ff73d00-86e3-4197-92fc-59289281250c"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`x$$ = 100, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"sin t\[IAcute]tulo\"", Typeset`specs$$ = {{
+      Hold[$CellContext`x$$], 0, 100, 1}}, Typeset`size$$ = {
+    1732., {449., 453.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`x$$ = 0}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> ArrayPlot[
+        $CellContext`f1[$CellContext`x$$], Mesh -> True, ImageSize -> Full], 
+      "Specifications" :> {{$CellContext`x$$, 0, 100, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{1785., {498., 503.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.8637710645279875`*^9, 3.8637710724187984`*^9}, 
+   3.863771203246441*^9, {3.8637712501523705`*^9, 3.8637713037003403`*^9}, {
+   3.8637713872310495`*^9, 3.86377143149249*^9}, {3.863771553698085*^9, 
+   3.8637715818325243`*^9}},
+ CellLabel->
+  "Out[286]=",ExpressionUUID->"91631670-3ff2-4681-a5b4-7280799b810e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Visualisation 2", "Subtitle",
+ CellChangeTimes->{{3.863771670637664*^9, 3.8637716993615236`*^9}, {
+  3.8637718175626326`*^9, 3.863771820203164*^9}, {3.863771914715446*^9, 
+  3.863771915202036*^9}},ExpressionUUID->"bec764b3-f8fa-4310-b3d2-\
+2cb6ce1b5ebf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f2", "[", "b_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"CellularAutomaton", "[", 
+     RowBox[{"30", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", "1", "}"}], ",", "0"}], "}"}], ",", "100"}], "]"}], "[", 
+    RowBox[{"[", 
+     RowBox[{"1", ";;", 
+      RowBox[{"b", "+", "1"}]}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ArrayPlot", "[", 
+    RowBox[{
+     RowBox[{"f2", "[", "i", "]"}], ",", 
+     RowBox[{"Mesh", "\[Rule]", "True"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "100", ",", "1"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.8637714492820206`*^9, 3.86377147545711*^9}, {
+  3.8637715116081934`*^9, 3.8637715763134165`*^9}},
+ CellLabel->
+  "In[287]:=",ExpressionUUID->"25d8d2e3-24e6-44cb-9e84-7cecc8521b7d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 16, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"sin t\[IAcute]tulo\"", Typeset`specs$$ = {{
+      Hold[$CellContext`i$$], 0, 100, 1}}, Typeset`size$$ = {
+    1732., {102., 106.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`i$$ = 0}, 
+      "ControllerVariables" :> {}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> ArrayPlot[
+        $CellContext`f2[$CellContext`i$$], Mesh -> True, ImageSize -> Full], 
+      "Specifications" :> {{$CellContext`i$$, 0, 100, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{1785., {166., 171.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.8637715478625402`*^9, {3.863771589852459*^9, 3.863771601326687*^9}},
+ CellLabel->
+  "Out[288]=",ExpressionUUID->"ba17f108-dbe1-4daa-84d0-589f51216b6a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1920, 1037},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"12.3 para Microsoft Windows (64-bit) (June 19, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"fc3c55ae-44bf-4189-af0f-679413a3b31a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 258, 4, 98, "Title",ExpressionUUID->"f86f3a7e-9a0e-4f85-98da-d14f32c75bc2"],
+Cell[CellGroupData[{
+Cell[863, 30, 257, 5, 44, "Input",ExpressionUUID->"cc16da61-f2d7-43a9-9f46-039cb93d6b93"],
+Cell[1123, 37, 7301, 144, 67, "Output",ExpressionUUID->"de2cd51a-93f0-4ae6-8f1d-6e4015d5c493"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8461, 186, 259, 4, 53, "Subtitle",ExpressionUUID->"554e497f-af5e-4619-8c10-c5bc96f8a288"],
+Cell[CellGroupData[{
+Cell[8745, 194, 1373, 39, 80, "Input",ExpressionUUID->"4ff73d00-86e3-4197-92fc-59289281250c"],
+Cell[10121, 235, 1841, 37, 1020, "Output",ExpressionUUID->"91631670-3ff2-4681-a5b4-7280799b810e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12011, 278, 260, 4, 53, "Subtitle",ExpressionUUID->"bec764b3-f8fa-4310-b3d2-2cb6ce1b5ebf"],
+Cell[CellGroupData[{
+Cell[12296, 286, 924, 25, 80, "Input",ExpressionUUID->"25d8d2e3-24e6-44cb-9e84-7cecc8521b7d"],
+Cell[13223, 313, 1684, 35, 356, "Output",ExpressionUUID->"ba17f108-dbe1-4daa-84d0-589f51216b6a"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
